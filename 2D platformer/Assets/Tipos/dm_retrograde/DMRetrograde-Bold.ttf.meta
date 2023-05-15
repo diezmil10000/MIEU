@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 27b6b10fd12a83a4f9fb204538ffce7a
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - DM Retrograde
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c404c80afcf284b49828547f335863cf, type: 3}
+  - {fileID: 12800000, guid: 66fc8b568fddb0e4eb447d4e23b35538, type: 3}
+  - {fileID: 12800000, guid: 36389e199b0febc4b97a6f093155d63b, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

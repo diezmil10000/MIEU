@@ -57,7 +57,7 @@ public class alfaMovimiento : MonoBehaviour
             anim.SetBool("Andar", false);
         }
         anim.SetBool("enSuelo", true); //Alfa siempre esta tocando el suelo
-        anim.SetBool("susto", _susto);
+        
 
         //Susto
         if(_susto == false)
