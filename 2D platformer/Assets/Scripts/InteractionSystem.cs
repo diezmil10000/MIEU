@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-
+using System;
 
 public class InteractionSystem : MonoBehaviour
 {
@@ -33,8 +33,10 @@ public class InteractionSystem : MonoBehaviour
         }
     }
 
-
-
+    private void TriggerDialogue()
+    {
+        throw new NotImplementedException();
+    }
 
     bool InteractInput() 
     {
@@ -67,6 +69,7 @@ public class InteractionSystem : MonoBehaviour
         }
 
     }
+
 
 
 }
