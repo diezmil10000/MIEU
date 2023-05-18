@@ -38,7 +38,7 @@ public class EnemyDetection : MonoBehaviour
         if (other.gameObject.tag == "Player") 
         {
             isPlayerDetected = true;
-            Debug.Log("Te detecté vea");
+            //Debug.Log("Te detectï¿½ vea");
 
             //Se mueve hacia el jugador
             transform.position = Vector2.MoveTowards(transform.position, targetPos.position, speed * Time.deltaTime);
@@ -51,7 +51,7 @@ public class EnemyDetection : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             isPlayerDetected = false;
-            Debug.Log("No te veo");
+            //Debug.Log("No te veo");
 
             //Se queda quieto
             transform.position = Vector2.MoveTowards(transform.position, currentPos, speed * Time.deltaTime);
