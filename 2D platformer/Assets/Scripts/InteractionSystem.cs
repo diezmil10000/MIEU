@@ -68,31 +68,5 @@ public class InteractionSystem : MonoBehaviour
 
     }
 
-    
 
-    private void ExitLocker()
-    {
-        if (player.activeSelf == false)
-        {
-            if (InteractInput())
-            {
-                player.SetActive(true);
-
-            }
-        }
-       
-    }
-
-    /*
-    private void MonsterCollision(Collision alfa)
-    {
-       
-
-    }
-
-    private void reiniciarMuerte()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-    }
-    */
 }

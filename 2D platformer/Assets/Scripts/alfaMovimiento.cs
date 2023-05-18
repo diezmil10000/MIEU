@@ -27,8 +27,6 @@ public class alfaMovimiento : MonoBehaviour
 
         escalaPric = transform.localScale;
 
-        _susto = false;
-
     }
 
     private void Update()
@@ -58,34 +56,6 @@ public class alfaMovimiento : MonoBehaviour
         }
         anim.SetBool("enSuelo", true); //Alfa siempre esta tocando el suelo
         
-
-        //Susto
-        if(_susto == false)
-        {
-            tiempoIdle += Time.deltaTime;
-
-            if(tiempoIdle > tiempoHastaSusto) 
-            {
-                _susto = true;
-                tiempoAsusta += Time.deltaTime;
-            }
-        }else if (tiempoAsusta >= 2)
-        {
-            ResetIdle(anim);
-        }
-        
     }
-
-
-    private void ResetIdle(Animator animator)
-    {
-
-        _susto = false;
-        tiempoIdle = 0;
-        tiempoAsusta = 0;
-
-    }
-
-
 
 }
