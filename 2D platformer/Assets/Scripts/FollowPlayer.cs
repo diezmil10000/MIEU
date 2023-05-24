@@ -6,7 +6,7 @@ public class FollowPlayer : MonoBehaviour
 {
     public Transform player;
 
-    [SerializeField] private float y = 2.5f;
+    [SerializeField] private float y = 2.0f;
     [SerializeField] private float z = -2.5f;
 
     // Update is called once per frame

@@ -9,46 +9,63 @@ public class Legibles : MonoBehaviour
     public GameObject DialogueText;
     public string dialogue;
     public bool dialogueActive;
-    public Queue<string> sentences;
-    public Dialogos textosDialogos;
+    public string[] sentences;
+    int numeroFrase;
     
     void Start()
     {
+        numeroFrase = -1;
         DialogueBox.SetActive(false);
-        sentences = new Queue<string>();
     }
 
     
     void Update()
+    // { 
+    //     if(Input.GetKeyDown(KeyCode.Space) && dialogueActive)
+    //     {
+    //         if(DialogueBox.activeInHierarchy)
+    //         {
+    //             DialogueBox.SetActive(false);
+    //         } else {
+    //             DialogueBox.SetActive(true);
+
+    //             foreach(string sentence in sentences)
+    //             {           
+    //                 DialogueText.GetComponent<Text>().text = sentence;
+    //                 Debug.Log(sentence);
+    //             }
+    //         }
+    //     }
+    // } 
+    //para comentar todo es Ctrl + K + C y para descomentarlo es Ctrl + K + U
+
     {
         if(Input.GetKeyDown(KeyCode.Space) && dialogueActive)
-        {
-            if(DialogueBox.activeInHierarchy)
+        {       
+            numeroFrase = numeroFrase+1;
+            if (numeroFrase >= sentences.Length)
             {
                 DialogueBox.SetActive(false);
-            } else {
+                Debug.Log("SE PASA");
+                numeroFrase = -1;
+            }else{
                 DialogueBox.SetActive(true);
-                DialogueText.GetComponent<Text>().text = dialogue;
-
-                //sentences.Clear();
-                //foreach(string sentence in textosDialogos.sentences) 
-                //{
-                   //sentences.Enqueue(sentence);
-                   //DialogueText.GetComponent<Text>().text = sentence;
-                  //Debug.Log(DialogueText.GetComponent<Text>().text);
-                //}
-            }
+                DialogueText.GetComponent<Text>().text = sentences[numeroFrase];
+                Debug.Log(sentences[numeroFrase]);
+                Debug.Log(numeroFrase);
+            } 
         }
     }
     
 
-    //Esto comprueba que estas dentro del colider y activa el booleano
+    //Esto comprueba que estas dentro del collider y activa el booleano
     //y luego se usa como condicional arriba en el Update()
     void OnTriggerEnter2D (Collider2D other)
     {
         if (other.CompareTag("Player"))
         { 
             dialogueActive = true;
+            
         }
     }
 
@@ -61,15 +78,4 @@ public class Legibles : MonoBehaviour
             DialogueBox.SetActive(false);
         }
     }
-
-
-    //Esto ahora mismo no se esta usando, es para avanzar en los dialogos
-    [System.Serializable]
-    public class Dialogos 
-    {
-        [TextArea(3,10)]
-        public string[] sentences;
-    }
-
-    
 }
