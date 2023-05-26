@@ -31,7 +31,6 @@ public class InteractionSystem : MonoBehaviour
             if (InteractInput())
             {
                 locker();
-                Debug.Log("holaXD");
             }
         }
     }
@@ -61,7 +60,7 @@ public class InteractionSystem : MonoBehaviour
             {
                 lockerScreen.SetActive(true);
                 player.SetActive(false);
-                SoundManager.Instance.PlaySound(_clip);
+                //SoundManager.Instance.PlaySound(_clip);
                 dentroarmario = true;
             }
 
@@ -69,7 +68,7 @@ public class InteractionSystem : MonoBehaviour
         {
             lockerScreen.SetActive(false);
             player.SetActive(true);
-            SoundManager.Instance.PlaySound(_clip);
+            //SoundManager.Instance.PlaySound(_clip);
             dentroarmario = false;
         }
 
