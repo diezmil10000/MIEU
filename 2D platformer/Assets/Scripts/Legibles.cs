@@ -43,7 +43,6 @@ public class Legibles : MonoBehaviour
         if (other.CompareTag("Player"))
         { 
             dialogueActive = true;
-            
         }
     }
 

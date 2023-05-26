@@ -13,9 +13,8 @@ public class EnemyDetection : MonoBehaviour
 
     private Vector2 currentPos;
 
-    [SerializeField] private float acceleration = 1.0f;
-
-    [SerializeField] private bool isPlayerDetected = false;
+    public float acceleration = 1.0f;
+    private bool isPlayerDetected = false;
 
     private void Start()
     {
@@ -33,18 +32,21 @@ public class EnemyDetection : MonoBehaviour
 
     }
 
-        private void OnTriggerStay2D (Collider2D other)
+    private void OnTriggerStay2D (Collider2D other)
     {
         if (other.gameObject.tag == "Player") 
         {
             isPlayerDetected = true;
+            
             //Se mueve hacia el jugador
             transform.position = Vector2.MoveTowards(transform.position, targetPos.position, acceleration * Time.deltaTime);
             anim.SetBool("chasing", true);
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    //si comento todo esto no me deja de detectar 
+
+    private void OnTriggerExit2D (Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {

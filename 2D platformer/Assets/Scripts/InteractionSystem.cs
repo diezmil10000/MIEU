@@ -22,6 +22,8 @@ public class InteractionSystem : MonoBehaviour
     //Pantalla de esconderse en la taquilla (es un panel)
     [SerializeField] private GameObject lockerScreen;
 
+    public bool dentroarmario = false;
+
     void Update()
     {
         if (DetectObject())
@@ -29,6 +31,7 @@ public class InteractionSystem : MonoBehaviour
             if (InteractInput())
             {
                 locker();
+                Debug.Log("holaXD");
             }
         }
     }
@@ -59,6 +62,7 @@ public class InteractionSystem : MonoBehaviour
                 lockerScreen.SetActive(true);
                 player.SetActive(false);
                 SoundManager.Instance.PlaySound(_clip);
+                dentroarmario = true;
             }
 
         } else if (player.activeSelf == false)
@@ -66,6 +70,7 @@ public class InteractionSystem : MonoBehaviour
             lockerScreen.SetActive(false);
             player.SetActive(true);
             SoundManager.Instance.PlaySound(_clip);
+            dentroarmario = false;
         }
 
     }
