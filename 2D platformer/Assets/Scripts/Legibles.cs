@@ -20,39 +20,17 @@ public class Legibles : MonoBehaviour
 
     
     void Update()
-    // { 
-    //     if(Input.GetKeyDown(KeyCode.Space) && dialogueActive)
-    //     {
-    //         if(DialogueBox.activeInHierarchy)
-    //         {
-    //             DialogueBox.SetActive(false);
-    //         } else {
-    //             DialogueBox.SetActive(true);
-
-    //             foreach(string sentence in sentences)
-    //             {           
-    //                 DialogueText.GetComponent<Text>().text = sentence;
-    //                 Debug.Log(sentence);
-    //             }
-    //         }
-    //     }
-    // } 
-    //para comentar todo es Ctrl + K + C y para descomentarlo es Ctrl + K + U
-
     {
-        if(Input.GetKeyDown(KeyCode.Space) && dialogueActive)
+        if((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.E)) && dialogueActive)
         {       
             numeroFrase = numeroFrase+1;
             if (numeroFrase >= sentences.Length)
             {
                 DialogueBox.SetActive(false);
-                Debug.Log("SE PASA");
                 numeroFrase = -1;
             }else{
                 DialogueBox.SetActive(true);
                 DialogueText.GetComponent<Text>().text = sentences[numeroFrase];
-                Debug.Log(sentences[numeroFrase]);
-                Debug.Log(numeroFrase);
             } 
         }
     }
@@ -69,13 +47,15 @@ public class Legibles : MonoBehaviour
         }
     }
 
-    //Esto hace que al irte del collider se quite el cuadro de texto
+    //Esto hace lo contrario, asi que al salirte del collider se quita el cuadro de texto
+    //y ademas se resetea el contador de frases para volver al principio
     void OnTriggerExit2D (Collider2D other)
     {
         if (other.CompareTag("Player"))
         { 
             dialogueActive = false; 
             DialogueBox.SetActive(false);
+            numeroFrase = -1;
         }
     }
 }

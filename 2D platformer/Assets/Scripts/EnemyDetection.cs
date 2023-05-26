@@ -13,7 +13,7 @@ public class EnemyDetection : MonoBehaviour
 
     private Vector2 currentPos;
 
-    [SerializeField] private float speed = 1.0f;
+    [SerializeField] private float acceleration = 1.0f;
 
     [SerializeField] private bool isPlayerDetected = false;
 
@@ -38,10 +38,8 @@ public class EnemyDetection : MonoBehaviour
         if (other.gameObject.tag == "Player") 
         {
             isPlayerDetected = true;
-            //Debug.Log("Te detect� vea");
-
             //Se mueve hacia el jugador
-            transform.position = Vector2.MoveTowards(transform.position, targetPos.position, speed * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(transform.position, targetPos.position, acceleration * Time.deltaTime);
             anim.SetBool("chasing", true);
         }
     }
@@ -54,7 +52,7 @@ public class EnemyDetection : MonoBehaviour
             //Debug.Log("No te veo");
 
             //Se queda quieto
-            transform.position = Vector2.MoveTowards(transform.position, currentPos, speed * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(transform.position, currentPos, acceleration * Time.deltaTime);
             anim.SetBool("chasing", false);
 
 
