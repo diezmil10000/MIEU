@@ -65,7 +65,7 @@ public class EnemyPathPatrol : MonoBehaviour {
     //pero solo te lo activa si estás fuera del armario
     void OnTriggerEnter2D (Collider2D other)
     {
-        if (other.CompareTag("Player") == armario.dentroarmario == false)
+        if (other.CompareTag("Player") && armario.dentroarmario == false)
         { 
             isPlayerDetected = true;
         }
