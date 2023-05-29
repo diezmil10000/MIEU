@@ -122,12 +122,12 @@ TextureImporter:
       name: splashScreen_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 60
-        width: 1060
-        height: 1087
+        x: 42
+        y: 1261
+        width: 1056
+        height: 1080
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -143,12 +143,12 @@ TextureImporter:
       name: splashScreen_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1256
-        width: 1060
-        height: 1087
+        x: 1130
+        y: 1261
+        width: 1056
+        height: 1080
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -164,12 +164,12 @@ TextureImporter:
       name: splashScreen_2
       rect:
         serializedVersion: 2
-        x: 1084
-        y: 60
-        width: 1064
-        height: 1087
+        x: 2218
+        y: 1261
+        width: 1056
+        height: 1080
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -185,12 +185,12 @@ TextureImporter:
       name: splashScreen_3
       rect:
         serializedVersion: 2
-        x: 1084
-        y: 1256
-        width: 1064
-        height: 1087
+        x: 3306
+        y: 1261
+        width: 1056
+        height: 1080
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -206,12 +206,12 @@ TextureImporter:
       name: splashScreen_4
       rect:
         serializedVersion: 2
-        x: 2172
-        y: 60
-        width: 1064
-        height: 1087
+        x: 4394
+        y: 1261
+        width: 1056
+        height: 1080
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -227,12 +227,12 @@ TextureImporter:
       name: splashScreen_5
       rect:
         serializedVersion: 2
-        x: 2172
-        y: 1256
-        width: 1064
-        height: 1087
+        x: 42
+        y: 65
+        width: 1056
+        height: 1080
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -248,12 +248,12 @@ TextureImporter:
       name: splashScreen_6
       rect:
         serializedVersion: 2
-        x: 3260
-        y: 60
-        width: 1064
-        height: 1087
+        x: 1130
+        y: 66
+        width: 1056
+        height: 1080
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -269,12 +269,12 @@ TextureImporter:
       name: splashScreen_7
       rect:
         serializedVersion: 2
-        x: 3260
-        y: 1256
-        width: 1064
-        height: 1087
+        x: 2218
+        y: 65
+        width: 1056
+        height: 1080
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -290,12 +290,12 @@ TextureImporter:
       name: splashScreen_8
       rect:
         serializedVersion: 2
-        x: 4348
-        y: 1256
-        width: 1060
-        height: 1087
+        x: 3306
+        y: 65
+        width: 1056
+        height: 1080
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
