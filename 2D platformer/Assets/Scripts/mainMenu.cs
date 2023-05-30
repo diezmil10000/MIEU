@@ -6,8 +6,9 @@ using UnityEngine.SceneManagement;
 public class mainMenu : MonoBehaviour
 {
 
-    public GameObject settings;
-    public GameObject menu;
+    [SerializeField] private GameObject settings;
+    [SerializeField] private GameObject menu;
+    [SerializeField] private GameObject creditos;
 
 
     public void Jugar() 
@@ -18,6 +19,11 @@ public class mainMenu : MonoBehaviour
     public void Ajustes()
     {
         irAjustes();
+    }
+
+    public void Creditos() 
+    {
+        irCreditos();
     }
 
     public void Salir()
@@ -33,6 +39,7 @@ public class mainMenu : MonoBehaviour
 
     private void irAtras()
     {
+        creditos.SetActive(false);
         settings.SetActive(false);
         menu.SetActive(true);
     }
@@ -40,6 +47,12 @@ public class mainMenu : MonoBehaviour
     private void irAjustes()
     {
         settings.SetActive(true);
+        menu.SetActive(false);
+    }
+
+    private void irCreditos() 
+    {
+        creditos.SetActive(true);
         menu.SetActive(false);
     }
 
