@@ -4,27 +4,42 @@ using UnityEngine;
 
 public class Portals : MonoBehaviour
 {
-    private Transform destination;
-    public bool isOrange;
     public float distance = 0.2f;
+    public float distance2 = 10f;
+    public Transform izquierda;
+    public Transform derecha;
 
     void Start()
     {
-        if (isOrange == false)
-        {
-            destination = GameObject.FindGameObjectWithTag("orange portal").GetComponent<Transform>();
-        } else {
-            destination = GameObject.FindGameObjectWithTag("blue portal").GetComponent<Transform>();
-        }
+        DosPortales();
+        Debug.Log(izquierda.position);
+        Debug.Log(derecha.position);
+    }
+
+    public void DosPortales()
+    {
+        izquierda = this.gameObject.transform.GetChild(0);
+        derecha = this.gameObject.transform.GetChild(1);
     }
 
     //Si un collider toca el portal, se coge su posicion del transform y se cambia al otro portal
     //Le puse el condicional de las tags porque si no se buggea el campo de vision del bicho
     void OnTriggerEnter2D(Collider2D other)
     {
-        if ((other.tag == "Player" || other.tag == "Enemy") && Vector2.Distance(transform.position, other.transform.position) > distance)
+        Debug.Log(Vector2.Distance(izquierda.transform.position, other.transform.position));
+        Debug.Log(Vector2.Distance(derecha.transform.position, other.transform.position));
+
+        if ((other.tag == "Player" || other.tag == "Enemy") && Vector2.Distance(izquierda.transform.position, other.transform.position) > distance && Vector2.Distance(izquierda.transform.position, other.transform.position) < distance2)
         {
-            other.transform.position = new Vector2 (destination.position.x, destination.position.y);
+            other.transform.position = new Vector2 (derecha.position.x, derecha.position.y);
+            Debug.Log(other.transform.position);
+
+        }else if ((other.tag == "Player" || other.tag == "Enemy") && Vector2.Distance(derecha.transform.position, other.transform.position) > distance && Vector2.Distance(derecha.transform.position, other.transform.position) < distance2)
+        {
+            other.transform.position = new Vector2 (izquierda.position.x, izquierda.position.y);
+            Debug.Log(other.transform.position);
         }
     }
+
+
 }
