@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638185653421896188
-    m_Hash: 3171557074
+      ticks: 638211445930000000
+    m_Hash: 3088643833
   m_LockFileStatus:
     m_FilePath: C:/Users/Isabel/Documents/GitHub/MIEU/2D platformer/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638185653421896188
-    m_Hash: 1792617772
+      ticks: 638211445930000000
+    m_Hash: 3706988288
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
