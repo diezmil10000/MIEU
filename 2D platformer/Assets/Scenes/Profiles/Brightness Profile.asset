@@ -65,7 +65,7 @@ MonoBehaviour:
     value: 8
   threshold:
     overrideState: 1
-    value: 1.55
+    value: 1.1
   softKnee:
     overrideState: 1
     value: 0.5
@@ -161,7 +161,7 @@ MonoBehaviour:
     value: 0
   keyValue:
     overrideState: 1
-    value: 2
+    value: 1
   eyeAdaptation:
     overrideState: 0
     value: 1
