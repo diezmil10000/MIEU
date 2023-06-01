@@ -20,11 +20,10 @@ public class EnemyPathPatrol : MonoBehaviour {
 
 	void Start () 
     {
+        target = GameObject.FindWithTag ("Player");
         targetPos = target.GetComponent<Transform>();
 
         anim = GetComponent<Animator>();
-
-		transform.position = waypoints [waypointIndex].transform.position;
 	}
 
 	void Update () 
@@ -44,15 +43,19 @@ public class EnemyPathPatrol : MonoBehaviour {
 
 	void Move()
 	{
-		transform.position = Vector3.MoveTowards (transform.position, waypoints[waypointIndex].transform.position, speed * Time.deltaTime);											
-		anim.SetBool("chasing", false);
-
-		if (transform.position == waypoints [waypointIndex].transform.position) {
-			waypointIndex += 1;
-		}
-				
 		if (waypointIndex == waypoints.Length)
+        {
 			waypointIndex = 0;
+        } else {
+            transform.position = Vector3.MoveTowards (transform.position, waypoints[waypointIndex].transform.position, speed * Time.deltaTime);											
+            anim.SetBool("chasing", false);
+
+            if (transform.position == waypoints [waypointIndex].transform.position)
+            {
+                waypointIndex += 1;
+            }
+        }
+
 	}
 
     void Chase()
