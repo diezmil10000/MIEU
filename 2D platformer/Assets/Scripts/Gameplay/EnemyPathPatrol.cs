@@ -36,12 +36,16 @@ public class EnemyPathPatrol : MonoBehaviour {
                 Move();
                 isPlayerDetected = false;
             }
-        }else{
+        }else if (waypoints.Length > 0) {
             Move();
         }
     }
 
-	void Move()
+
+    //hay que cambiar esto para que haya un waypoint a la izda de un armario y otro a la dcha, y que cuando llegue a uno se quede quieto
+    //y tb estaria chulo un codigo para que persiguieran al jugador los de detras del cristal
+    //que solo se muevan en la posicion x y que ademas no maten a alfa
+	void Move() 
 	{
 		if (waypointIndex == waypoints.Length)
         {
@@ -65,7 +69,7 @@ public class EnemyPathPatrol : MonoBehaviour {
     }
 
     //Esto comprueba que estas dentro del collider y activa el booleano del Update()
-    //pero solo te lo activa si estás fuera del armario
+    //pero solo te lo activa si estas fuera del armario
     void OnTriggerEnter2D (Collider2D other)
     {
         if (other.CompareTag("Player") && armario.dentroarmario == false)

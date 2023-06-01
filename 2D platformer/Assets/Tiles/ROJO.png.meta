@@ -68,6 +68,30 @@ TextureImporter:
   - first:
       213: -7805899944274605181
     second: ROJO_21
+  - first:
+      213: -6752230213572143242
+    second: ROJO_22
+  - first:
+      213: 3317147626623976676
+    second: ROJO_23
+  - first:
+      213: -5065573362297033590
+    second: ROJO_24
+  - first:
+      213: -669188844602289757
+    second: ROJO_25
+  - first:
+      213: -722202212533080163
+    second: ROJO_26
+  - first:
+      213: 8298244377985544387
+    second: ROJO_27
+  - first:
+      213: 6519468907794895541
+    second: ROJO_28
+  - first:
+      213: 5877034202185231565
+    second: ROJO_29
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -166,7 +190,7 @@ TextureImporter:
         width: 243
         height: 463
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -187,7 +211,7 @@ TextureImporter:
         width: 238
         height: 463
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -208,7 +232,7 @@ TextureImporter:
         width: 119
         height: 463
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -229,7 +253,7 @@ TextureImporter:
         width: 124
         height: 463
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -250,7 +274,7 @@ TextureImporter:
         width: 270
         height: 329
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -271,7 +295,7 @@ TextureImporter:
         width: 151
         height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -287,12 +311,12 @@ TextureImporter:
       name: ROJO_6
       rect:
         serializedVersion: 2
-        x: 1174
-        y: 712
-        width: 147
-        height: 173
+        x: 1365
+        y: 967
+        width: 66
+        height: 97
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -308,12 +332,12 @@ TextureImporter:
       name: ROJO_7
       rect:
         serializedVersion: 2
-        x: 78
-        y: 126
-        width: 243
-        height: 463
+        x: 1506
+        y: 544
+        width: 483
+        height: 523
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -329,12 +353,12 @@ TextureImporter:
       name: ROJO_8
       rect:
         serializedVersion: 2
-        x: 337
-        y: 426
-        width: 290
-        height: 159
+        x: 1174
+        y: 712
+        width: 147
+        height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -350,12 +374,12 @@ TextureImporter:
       name: ROJO_9
       rect:
         serializedVersion: 2
-        x: 862
-        y: 536
-        width: 296
-        height: 173
+        x: 1377
+        y: 732
+        width: 83
+        height: 210
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -371,12 +395,12 @@ TextureImporter:
       name: ROJO_10
       rect:
         serializedVersion: 2
-        x: 1181
-        y: 536
-        width: 276
-        height: 173
+        x: 78
+        y: 126
+        width: 243
+        height: 463
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -392,12 +416,12 @@ TextureImporter:
       name: ROJO_11
       rect:
         serializedVersion: 2
-        x: 688
-        y: 474
-        width: 18
-        height: 18
+        x: 337
+        y: 426
+        width: 290
+        height: 159
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -413,12 +437,12 @@ TextureImporter:
       name: ROJO_12
       rect:
         serializedVersion: 2
-        x: 764
-        y: 135
-        width: 252
-        height: 393
+        x: 862
+        y: 536
+        width: 296
+        height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -434,12 +458,12 @@ TextureImporter:
       name: ROJO_13
       rect:
         serializedVersion: 2
-        x: 1045
-        y: 292
-        width: 220
-        height: 226
+        x: 1181
+        y: 536
+        width: 276
+        height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -455,12 +479,12 @@ TextureImporter:
       name: ROJO_14
       rect:
         serializedVersion: 2
-        x: 1323
-        y: 134
-        width: 311
-        height: 372
+        x: 688
+        y: 474
+        width: 18
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -476,12 +500,12 @@ TextureImporter:
       name: ROJO_15
       rect:
         serializedVersion: 2
-        x: 343
-        y: 286
-        width: 77
-        height: 93
+        x: 764
+        y: 135
+        width: 252
+        height: 393
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -497,12 +521,12 @@ TextureImporter:
       name: ROJO_16
       rect:
         serializedVersion: 2
-        x: 472
-        y: 290
-        width: 99
-        height: 110
+        x: 1045
+        y: 292
+        width: 220
+        height: 226
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -518,12 +542,12 @@ TextureImporter:
       name: ROJO_17
       rect:
         serializedVersion: 2
-        x: 621
-        y: 290
-        width: 99
-        height: 110
+        x: 1323
+        y: 134
+        width: 311
+        height: 372
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -539,12 +563,12 @@ TextureImporter:
       name: ROJO_18
       rect:
         serializedVersion: 2
-        x: 337
-        y: 124
-        width: 94
-        height: 116
+        x: 343
+        y: 286
+        width: 77
+        height: 93
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -560,12 +584,12 @@ TextureImporter:
       name: ROJO_19
       rect:
         serializedVersion: 2
-        x: 452
-        y: 125
-        width: 286
-        height: 142
+        x: 472
+        y: 290
+        width: 99
+        height: 110
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -581,12 +605,12 @@ TextureImporter:
       name: ROJO_20
       rect:
         serializedVersion: 2
-        x: 1050
-        y: 124
-        width: 215
-        height: 127
+        x: 621
+        y: 290
+        width: 99
+        height: 110
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -602,12 +626,12 @@ TextureImporter:
       name: ROJO_21
       rect:
         serializedVersion: 2
-        x: 58
-        y: 25
-        width: 287
-        height: 76
+        x: 1683
+        y: 117
+        width: 292
+        height: 356
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -615,6 +639,153 @@ TextureImporter:
       bones: []
       spriteID: 38b454dab5fdba390800000000000000
       internalID: -7805899944274605181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJO_22
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 124
+        width: 94
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6775f5645624b42a0800000000000000
+      internalID: -6752230213572143242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJO_23
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 125
+        width: 286
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4c3700130e80e20800000000000000
+      internalID: 3317147626623976676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJO_24
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 124
+        width: 215
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8caa949dd773b9b0800000000000000
+      internalID: -5065573362297033590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJO_25
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 24
+        width: 395
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a193d59a4096b6f0800000000000000
+      internalID: -669188844602289757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJO_26
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 21
+        width: 406
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9fe6f10ae83af5f0800000000000000
+      internalID: -722202212533080163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJO_28
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 24
+        width: 391
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b291551e6ec97a50800000000000000
+      internalID: 6519468907794895541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJO_29
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 21
+        width: 391
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc6212187b6f8150800000000000000
+      internalID: 5877034202185231565
       vertices: []
       indices: 
       edges: []
