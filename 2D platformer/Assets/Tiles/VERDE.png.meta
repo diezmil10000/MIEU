@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 03db622d239dc3246893c74d456c88c3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1010615578722225581
+    second: VERDE_0
+  - first:
+      213: 2193745311370376451
+    second: VERDE_1
+  - first:
+      213: -6754657064385644601
+    second: VERDE_2
+  - first:
+      213: -8864250624771358416
+    second: VERDE_3
+  - first:
+      213: -6323735821851405886
+    second: VERDE_4
+  - first:
+      213: 236700583293447048
+    second: VERDE_5
+  - first:
+      213: -3982042092959764122
+    second: VERDE_6
+  - first:
+      213: 2529403383975781677
+    second: VERDE_7
+  - first:
+      213: -4861987722833340854
+    second: VERDE_8
+  - first:
+      213: 4951690803240121994
+    second: VERDE_9
+  - first:
+      213: 644970818530941447
+    second: VERDE_10
+  - first:
+      213: 5580228729320744214
+    second: VERDE_11
+  - first:
+      213: 3067003639924147784
+    second: VERDE_12
+  - first:
+      213: 9036564549853837950
+    second: VERDE_13
+  - first:
+      213: 2242066672460770668
+    second: VERDE_14
+  - first:
+      213: -8294344369546082611
+    second: VERDE_15
+  - first:
+      213: 5421809416432663862
+    second: VERDE_16
+  - first:
+      213: 9054015649349698611
+    second: VERDE_17
+  - first:
+      213: -4374559843984284695
+    second: VERDE_18
+  - first:
+      213: -5258658165497265389
+    second: VERDE_19
+  - first:
+      213: 6325049524980987412
+    second: VERDE_20
+  - first:
+      213: -1186163002406798898
+    second: VERDE_21
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VERDE_0
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 606
+        width: 243
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dadc63ea38d660e00800000000000000
+      internalID: 1010615578722225581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VERDE_1
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 606
+        width: 238
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305f8ebdcbfb17e10800000000000000
+      internalID: 2193745311370376451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VERDE_2
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 606
+        width: 119
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7f5b90033a242a0800000000000000
+      internalID: -6754657064385644601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VERDE_3
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 606
+        width: 124
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0310876850bdbf480800000000000000
+      internalID: -8864250624771358416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VERDE_4
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 738
+        width: 270
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1522d46c39d38a0800000000000000
+      internalID: -6323735821851405886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VERDE_5
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 894
+        width: 151
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b65592dede84300800000000000000
+      internalID: 236700583293447048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VERDE_6
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 712
+        width: 147
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661fa7070d1fcb8c0800000000000000
+      internalID: -3982042092959764122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VERDE_7
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 126
+        width: 243
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d252c83f9fe3a1320800000000000000
+      internalID: 2529403383975781677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VERDE_8
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 426
+        width: 290
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46553e0defb68cb0800000000000000
+      internalID: -4861987722833340854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VERDE_9
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 536
+        width: 296
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8632b4ec80f7b440800000000000000
+      internalID: 4951690803240121994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VERDE_10
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 536
+        width: 276
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a9701da8563f800800000000000000
+      internalID: 644970818530941447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VERDE_11
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 474
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615a798c674f07d40800000000000000
+      internalID: 5580228729320744214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VERDE_12
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 135
+        width: 252
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84642829f8f209a20800000000000000
+      internalID: 3067003639924147784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VERDE_13
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 292
+        width: 220
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7afcef8493586d70800000000000000
+      internalID: 9036564549853837950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VERDE_14
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 134
+        width: 311
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d24c672cb6d1f10800000000000000
+      internalID: 2242066672460770668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VERDE_15
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 286
+        width: 77
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6c170cdb194ec80800000000000000
+      internalID: -8294344369546082611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VERDE_16
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 290
+        width: 99
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d365230f22e3b40800000000000000
+      internalID: 5421809416432663862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VERDE_17
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 290
+        width: 99
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334015a434356ad70800000000000000
+      internalID: 9054015649349698611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VERDE_18
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 124
+        width: 94
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3e0a2dff07a43c0800000000000000
+      internalID: -4374559843984284695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VERDE_19
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 125
+        width: 286
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3130452924e7507b0800000000000000
+      internalID: -5258658165497265389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VERDE_20
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 124
+        width: 215
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 416be3b080717c750800000000000000
+      internalID: 6325049524980987412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VERDE_21
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 25
+        width: 287
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9f4dba807e98fe0800000000000000
+      internalID: -1186163002406798898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

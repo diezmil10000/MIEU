@@ -1,7 +1,22 @@
 fileFormatVersion: 2
 guid: a918971fd9a637c4d81e31b5a82021f0
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -2489957077680017820
+    second: splashScreenMonstruos_0
+  - first:
+      213: 5245216884157446579
+    second: splashScreenMonstruos_2
+  - first:
+      213: -427202461454779410
+    second: splashScreenMonstruos_4
+  - first:
+      213: 7342341068811924894
+    second: splashScreenMonstruos_6
+  - first:
+      213: -9134533578985397647
+    second: splashScreenMonstruos_1
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -41,7 +56,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -90,7 +105,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: splashScreenMonstruos_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 125
+        width: 1245
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ea9eeea35e17dd0800000000000000
+      internalID: -2489957077680017820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splashScreenMonstruos_2
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 127
+        width: 1245
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9f51e37f0cac840800000000000000
+      internalID: 5245216884157446579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splashScreenMonstruos_4
+      rect:
+        serializedVersion: 2
+        x: 2603
+        y: 127
+        width: 1245
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eebb0ddef95421af0800000000000000
+      internalID: -427202461454779410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splashScreenMonstruos_6
+      rect:
+        serializedVersion: 2
+        x: 3872
+        y: 127
+        width: 1245
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95fb4afc4c35e560800000000000000
+      internalID: 7342341068811924894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
