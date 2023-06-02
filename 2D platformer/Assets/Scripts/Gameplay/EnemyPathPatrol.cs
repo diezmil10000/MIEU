@@ -16,12 +16,15 @@ public class EnemyPathPatrol : MonoBehaviour {
     private bool isPlayerDetected = false;
     private Transform targetPos;
 
+    Vector3 escalaPric;
+
     public InteractionSystem armario;
 
 	void Start () 
     {
         target = GameObject.FindWithTag ("Player");
         targetPos = target.GetComponent<Transform>();
+        escalaPric = transform.localScale;
 
         anim = GetComponent<Animator>();
 	}
@@ -50,13 +53,17 @@ public class EnemyPathPatrol : MonoBehaviour {
 		if (waypointIndex == waypoints.Length)
         {
 			waypointIndex = 0;
-        } else {
+            transform.localScale = new Vector3(escalaPric.x, escalaPric.y, escalaPric.z);
+
+        }
+        else {
             transform.position = Vector3.MoveTowards (transform.position, waypoints[waypointIndex].transform.position, speed * Time.deltaTime);											
             anim.SetBool("chasing", false);
 
             if (transform.position == waypoints [waypointIndex].transform.position)
             {
                 waypointIndex += 1;
+                transform.localScale = new Vector3(-escalaPric.x, escalaPric.y, escalaPric.z);
             }
         }
 

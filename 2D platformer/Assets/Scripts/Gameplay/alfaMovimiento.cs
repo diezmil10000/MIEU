@@ -4,7 +4,11 @@ using UnityEngine;
 
 public class alfaMovimiento : MonoBehaviour
 {
-    
+
+    public Transform checkSuelo;
+    public bool enSuelo;
+    public LayerMask capaSuelo;
+
     public float vel = 5.0f;
     Rigidbody2D rb;
 
@@ -31,6 +35,16 @@ public class alfaMovimiento : MonoBehaviour
 
     private void Update()
     {
+
+        //Bloquear movimiento al caer
+        if (!enSuelo)
+        {
+            vel = 0;
+        }else if (enSuelo)
+        {
+            vel = 15;
+        }
+
         float h = Input.GetAxis("Horizontal") * vel;
 
         rb.velocity = new Vector2(h, rb.velocity.y);
@@ -54,8 +68,14 @@ public class alfaMovimiento : MonoBehaviour
         {
             anim.SetBool("Andar", false);
         }
-        anim.SetBool("enSuelo", true); //Alfa siempre esta tocando el suelo
+        anim.SetBool("enSuelo", enSuelo); 
         
+    }
+
+    //Detecta si el jugador está en el suelo o no.
+    private void FixedUpdate()
+    {
+        enSuelo = Physics2D.OverlapCircle(checkSuelo.position, 0.25f, capaSuelo);
     }
 
 }

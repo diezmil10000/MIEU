@@ -1,7 +1,28 @@
 fileFormatVersion: 2
 guid: 53cab76815971044386259d0b1ecf7f5
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 2417397297790273576
+    second: largaIdleAzul_0
+  - first:
+      213: 8952930604886979507
+    second: largaIdleAzul_1
+  - first:
+      213: 3084692135958835846
+    second: largaIdleAzul_2
+  - first:
+      213: -2824691315961008207
+    second: largaIdleAzul_3
+  - first:
+      213: 6891230545740108440
+    second: largaIdleAzul_4
+  - first:
+      213: -3572616992892283825
+    second: largaIdleAzul_5
+  - first:
+      213: -7334052047695896173
+    second: largaIdleAzul_6
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -32,7 +53,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,7 +62,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -90,7 +111,154 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: largaIdleAzul_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 5
+        width: 177
+        height: 772
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82847cfc8025c8120800000000000000
+      internalID: 2417397297790273576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: largaIdleAzul_1
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 5
+        width: 177
+        height: 769
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3f20353f23f3c70800000000000000
+      internalID: 8952930604886979507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: largaIdleAzul_2
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 4
+        width: 174
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682744d77270fca20800000000000000
+      internalID: 3084692135958835846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: largaIdleAzul_3
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 3
+        width: 177
+        height: 761
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf6308c63eacc8d0800000000000000
+      internalID: -2824691315961008207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: largaIdleAzul_4
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 4
+        width: 174
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89219288ba192af50800000000000000
+      internalID: 6891230545740108440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: largaIdleAzul_5
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 5
+        width: 189
+        height: 769
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44912406c38b6ec0800000000000000
+      internalID: -3572616992892283825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: largaIdleAzul_6
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 5
+        width: 175
+        height: 772
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3912cd42586383a90800000000000000
+      internalID: -7334052047695896173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
