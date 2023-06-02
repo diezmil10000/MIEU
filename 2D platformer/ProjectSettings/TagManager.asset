@@ -10,6 +10,8 @@ TagManager:
   - orange portal
   - blue portal
   - Piso1L
+  - agujero
+  - escalera
   layers:
   - Default
   - TransparentFX
