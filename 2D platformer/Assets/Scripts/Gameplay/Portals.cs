@@ -7,10 +7,10 @@ public class Portals : MonoBehaviour
 {
     private float distance = 0.2f;
     private float distance2 = 10f;
+    
     private Transform izquierda;
     private Transform derecha;
 
-    //fade
     public Image fade_Image;
 
     void Awake()
@@ -30,12 +30,6 @@ public class Portals : MonoBehaviour
         derecha = this.gameObject.transform.GetChild(1);
     }
 
-    private void fadeOut()
-    {
-        //Fade out
-        fade_Image.CrossFadeAlpha(0, 0.4f, false);
-    }
-
     //Si un collider toca el portal, se coge su posicion del transform y se cambia al otro portal
     //El "< distance2 (10f)" es lo que hace que al acercarse se triggee
     //El "> distance (0.2f)" es lo que hace que no se vuelva a triggear de inmediato en el otro portal
@@ -48,9 +42,9 @@ public class Portals : MonoBehaviour
         {
             other.transform.position = new Vector2(izquierda.position.x, izquierda.position.y);
 
-            //Fade in
+            //Fade out
             if (other.tag == "Player") {
-                Invoke("fadeOut", 0.3f);
+                fade_Image.CrossFadeAlpha(0, 0.4f, false);
             }
             
         }
@@ -58,9 +52,9 @@ public class Portals : MonoBehaviour
         {
             other.transform.position = new Vector2(derecha.position.x, derecha.position.y);
 
-            //Fade in
+            //Fade out
             if (other.tag == "Player") {
-                Invoke("fadeOut", 0.3f);
+                fade_Image.CrossFadeAlpha(0, 0.4f, false);
             }
         }
     }
@@ -68,7 +62,7 @@ public class Portals : MonoBehaviour
     //Este es para que si no sales de la sala pero has activado el fadein se te vaya al alejarte
     void OnTriggerExit2D (Collider2D other)
     {
-        Invoke("fadeOut", 0.3f);
+        fade_Image.CrossFadeAlpha(0, 0.4f, false);
     }
 
 

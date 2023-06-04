@@ -7860,7 +7860,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.1274643, y: -0.2082367}
+  m_Offset: {x: 0.1274643, y: -0.1354086}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -7871,7 +7871,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 73.008575, y: 0.49450994}
+  m_Size: {x: 73.008575, y: 0.5153155}
   m_EdgeRadius: 0
 --- !u!212 &860792281
 SpriteRenderer:
@@ -9616,6 +9616,7 @@ GameObject:
   - component: {fileID: 1076669794}
   - component: {fileID: 1076669793}
   - component: {fileID: 1076669797}
+  - component: {fileID: 1076669799}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -9738,7 +9739,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1076669791}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 43.6, y: -53, z: 0}
+  m_LocalPosition: {x: -82.9, y: -52.86, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1653598065}
@@ -9785,6 +9786,25 @@ MonoBehaviour:
   gameOverClip: {fileID: 8300000, guid: e18959d46b63f3c4c8cc020a433cf848, type: 3}
   jumpscareClip: {fileID: 8300000, guid: 6c05149e5a2fba64ba172e25a61074b7, type: 3}
   jumpscareTime: 4
+--- !u!114 &1076669799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076669791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 453b4557d49568c43a6866b4113f7bae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pisoActual: 0
+  escalerasArray:
+  - {fileID: 1688620906}
+  - {fileID: 1227915456}
+  - {fileID: 2005859557}
+  - {fileID: 2092504953}
+  - {fileID: 1671363679}
 --- !u!1 &1076715466
 GameObject:
   m_ObjectHideFlags: 0
@@ -9918,7 +9938,7 @@ GameObject:
   - component: {fileID: 1086840571}
   - component: {fileID: 1086840570}
   m_Layer: 0
-  m_Name: sueloAzulejo
+  m_Name: suelo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11413,9 +11433,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a5464c237c13ec4cbd0b172ce598659, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distance: 0.2
-  jugador: {fileID: 0}
-  escaleraActive: 0
+  fade_Image: {fileID: 555320478}
+  piso: {fileID: 1076669799}
 --- !u!61 &1227915458
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15213,7 +15232,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1671363678}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -27.283005, y: -0.98, z: 65.00488}
+  m_LocalPosition: {x: -27.283005, y: -1, z: 65.00488}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1391916567}
@@ -15231,9 +15250,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a5464c237c13ec4cbd0b172ce598659, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distance: 0.2
-  jugador: {fileID: 0}
-  escaleraActive: 0
+  fade_Image: {fileID: 555320478}
+  piso: {fileID: 1076669799}
 --- !u!61 &1671363681
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15441,7 +15459,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1688620905}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -27.283005, y: -0.96, z: 65.00488}
+  m_LocalPosition: {x: -27.283005, y: -1, z: 65.00488}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 471949770}
@@ -15459,9 +15477,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a5464c237c13ec4cbd0b172ce598659, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distance: 0.2
-  jugador: {fileID: 0}
-  escaleraActive: 0
+  fade_Image: {fileID: 555320478}
+  piso: {fileID: 1076669799}
 --- !u!61 &1688620908
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15677,7 +15694,6 @@ Transform:
   - {fileID: 791494424}
   - {fileID: 418553170}
   - {fileID: 1739258442}
-  - {fileID: 2092504953}
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -17485,6 +17501,7 @@ Transform:
   m_Children:
   - {fileID: 1109057917}
   - {fileID: 1860639593}
+  - {fileID: 2092504953}
   m_Father: {fileID: 1734312387}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -18115,7 +18132,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2005859556}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -27.283005, y: -0.988, z: 65.00488}
+  m_LocalPosition: {x: -27.283005, y: -1, z: 65.00488}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1884501106}
@@ -18237,9 +18254,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a5464c237c13ec4cbd0b172ce598659, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distance: 0.2
-  jugador: {fileID: 0}
-  escaleraActive: 0
+  fade_Image: {fileID: 555320478}
+  piso: {fileID: 1076669799}
 --- !u!1 &2010494884
 GameObject:
   m_ObjectHideFlags: 0
@@ -18881,11 +18897,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2092504952}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -112.926834, y: -33.01, z: 3045.2322}
+  m_LocalPosition: {x: -27.283005, y: -1, z: 65.00488}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1734312387}
-  m_RootOrder: 5
+  m_Father: {fileID: 1943822595}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2092504954
 MonoBehaviour:
@@ -18899,9 +18915,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a5464c237c13ec4cbd0b172ce598659, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distance: 0.2
-  jugador: {fileID: 0}
-  escaleraActive: 0
+  fade_Image: {fileID: 555320478}
+  piso: {fileID: 1076669799}
 --- !u!61 &2092504955
 BoxCollider2D:
   m_ObjectHideFlags: 0
