@@ -12,6 +12,7 @@ TagManager:
   - Piso1L
   - agujero
   - escalera
+  - fadein
   layers:
   - Default
   - TransparentFX

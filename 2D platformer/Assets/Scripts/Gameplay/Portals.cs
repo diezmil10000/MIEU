@@ -5,11 +5,10 @@ using UnityEngine.UI;
 
 public class Portals : MonoBehaviour
 {
-    public float distance = 0.2f;
-    public float distance2 = 10f;
-    public Transform izquierda;
-    public Transform derecha;
-
+    private float distance = 0.2f;
+    private float distance2 = 10f;
+    private Transform izquierda;
+    private Transform derecha;
 
     //fade
     public Image fade_Image;
@@ -38,36 +37,38 @@ public class Portals : MonoBehaviour
     }
 
     //Si un collider toca el portal, se coge su posicion del transform y se cambia al otro portal
-    //Le puse el condicional de las tags porque si no se buggea el campo de vision del bicho
+    //El "< distance2 (10f)" es lo que hace que al acercarse se triggee
+    //El "> distance (0.2f)" es lo que hace que no se vuelva a triggear de inmediato en el otro portal
     void OnTriggerEnter2D(Collider2D other)
     {
-       
-        if ((other.tag == "Player") && Vector2.Distance(derecha.transform.position, other.transform.position) > distance && Vector2.Distance(derecha.transform.position, other.transform.position) < distance2)
+        if (other.tag == "fadein") {
+            fade_Image.CrossFadeAlpha(1, 0.2f, false);
+        }
+        else if (Vector2.Distance(derecha.transform.position, other.transform.position) > distance && Vector2.Distance(derecha.transform.position, other.transform.position) < distance2)
         {
             other.transform.position = new Vector2(izquierda.position.x, izquierda.position.y);
 
             //Fade in
-            fade_Image.CrossFadeAlpha(1, 0.2f, false);
-            Invoke("fadeOut", 0.3f);
+            if (other.tag == "Player") {
+                Invoke("fadeOut", 0.3f);
+            }
+            
         }
-        else if ((other.tag == "Player") && Vector2.Distance(izquierda.transform.position, other.transform.position) > distance && Vector2.Distance(izquierda.transform.position, other.transform.position) < distance2)
+        else if (Vector2.Distance(izquierda.transform.position, other.transform.position) > distance && Vector2.Distance(izquierda.transform.position, other.transform.position) < distance2)
         {
             other.transform.position = new Vector2(derecha.position.x, derecha.position.y);
 
             //Fade in
-            fade_Image.CrossFadeAlpha(1, 0.2f, false);
-            Invoke("fadeOut", 0.3f);
+            if (other.tag == "Player") {
+                Invoke("fadeOut", 0.3f);
+            }
         }
-        else if ((other.tag == "Player" || other.tag == "Enemy") && Vector2.Distance(izquierda.transform.position, other.transform.position) > distance && Vector2.Distance(izquierda.transform.position, other.transform.position) < distance2)
-        {
-            other.transform.position = new Vector2(derecha.position.x, derecha.position.y);
+    }
 
-
-        }
-        else if ((other.tag == "Player" || other.tag == "Enemy") && Vector2.Distance(derecha.transform.position, other.transform.position) > distance && Vector2.Distance(derecha.transform.position, other.transform.position) < distance2)
-        {
-            other.transform.position = new Vector2(izquierda.position.x, izquierda.position.y);
-        }
+    //Este es para que si no sales de la sala pero has activado el fadein se te vaya al alejarte
+    void OnTriggerExit2D (Collider2D other)
+    {
+        Invoke("fadeOut", 0.3f);
     }
 
 

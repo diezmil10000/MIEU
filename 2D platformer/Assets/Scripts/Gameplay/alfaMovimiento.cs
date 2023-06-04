@@ -9,7 +9,7 @@ public class alfaMovimiento : MonoBehaviour
     public bool enSuelo;
     public LayerMask capaSuelo;
 
-    public float vel = 5.0f;
+    private float vel = 5.0f;
     Rigidbody2D rb;
 
     Vector3 escalaPric;
@@ -42,7 +42,7 @@ public class alfaMovimiento : MonoBehaviour
             vel = 0;
         }else if (enSuelo)
         {
-            vel = 15;
+            vel = 5;
         }
 
         float h = Input.GetAxis("Horizontal") * vel;
@@ -60,11 +60,11 @@ public class alfaMovimiento : MonoBehaviour
 
         //ANIMACIONES
 
-        if(h != 0) //si el personaje se está moviendo, es decir, si h es 1 o -1
+        if(h != 0) //si el personaje se estï¿½ moviendo, es decir, si h es 1 o -1
         {
             anim.SetBool("Andar", true);
         }
-        else //si el personaje está quieto, es decir, h = 0
+        else //si el personaje estï¿½ quieto, es decir, h = 0
         {
             anim.SetBool("Andar", false);
         }
@@ -72,7 +72,7 @@ public class alfaMovimiento : MonoBehaviour
         
     }
 
-    //Detecta si el jugador está en el suelo o no.
+    //Detecta si el jugador estï¿½ en el suelo o no.
     private void FixedUpdate()
     {
         enSuelo = Physics2D.OverlapCircle(checkSuelo.position, 0.25f, capaSuelo);
