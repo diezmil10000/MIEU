@@ -11,12 +11,11 @@ public class EnemyPathPatrol : MonoBehaviour {
 	public Transform[] waypoints;
     int waypointIndex = 0;
 
-	public int speed = 3;
-    public float acceleration = 2.0f;
+	private int speed = 4;
+    private float acceleration = 1.2f;
     private bool isPlayerDetected = false;
     private Transform targetPos;
 
-    Vector3 escalaPric;
 
     public InteractionSystem armario;
 
@@ -24,7 +23,6 @@ public class EnemyPathPatrol : MonoBehaviour {
     {
         target = GameObject.FindWithTag ("Player");
         targetPos = target.GetComponent<Transform>();
-        escalaPric = transform.localScale;
 
         anim = GetComponent<Animator>();
 	}
@@ -34,37 +32,29 @@ public class EnemyPathPatrol : MonoBehaviour {
         if (isPlayerDetected == true)
         {
             Chase ();
-            if (armario.dentroarmario == true)
+
+            if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.E)) && armario.dentroarmario == true)
             {
+                waypointIndex += 1;
+                Debug.Log(waypointIndex);
                 Move();
                 isPlayerDetected = false;
-            }
-        }else if (waypoints.Length > 0) {
+            }  
+               
+        }else{
             Move();
         }
     }
 
-
-    //hay que cambiar esto para que haya un waypoint a la izda de un armario y otro a la dcha, y que cuando llegue a uno se quede quieto
-    //y tb estaria chulo un codigo para que persiguieran al jugador los de detras del cristal
-    //que solo se muevan en la posicion x y que ademas no maten a alfa
 	void Move() 
 	{
 		if (waypointIndex == waypoints.Length)
         {
 			waypointIndex = 0;
-            transform.localScale = new Vector3(escalaPric.x, escalaPric.y, escalaPric.z);
-
         }
         else {
             transform.position = Vector3.MoveTowards (transform.position, waypoints[waypointIndex].transform.position, speed * Time.deltaTime);											
             anim.SetBool("chasing", false);
-
-            if (transform.position == waypoints [waypointIndex].transform.position)
-            {
-                waypointIndex += 1;
-                transform.localScale = new Vector3(-escalaPric.x, escalaPric.y, escalaPric.z);
-            }
         }
 
 	}

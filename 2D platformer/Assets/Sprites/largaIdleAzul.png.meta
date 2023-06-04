@@ -1,28 +1,28 @@
 fileFormatVersion: 2
-guid: 53cab76815971044386259d0b1ecf7f5
+guid: 3888bc30622800641b465f9319e78501
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2417397297790273576
-    second: largaIdleAzul_0
+      213: -6742494526214417240
+    second: amarilloLargaIdle_0
   - first:
-      213: 8952930604886979507
-    second: largaIdleAzul_1
+      213: -6996196221982621943
+    second: amarilloLargaIdle_1
   - first:
-      213: 3084692135958835846
-    second: largaIdleAzul_2
+      213: -6689928300702404476
+    second: amarilloLargaIdle_2
   - first:
-      213: -2824691315961008207
-    second: largaIdleAzul_3
+      213: 7533546846576018037
+    second: amarilloLargaIdle_3
   - first:
-      213: 6891230545740108440
-    second: largaIdleAzul_4
+      213: -5855042075672596689
+    second: amarilloLargaIdle_4
   - first:
-      213: -3572616992892283825
-    second: largaIdleAzul_5
+      213: -2194334270509810782
+    second: amarilloLargaIdle_5
   - first:
-      213: -7334052047695896173
-    second: largaIdleAzul_6
+      213: -761084381135353782
+    second: amarilloLargaIdle_6
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: largaIdleAzul_0
+      name: amarilloLargaIdle_0
       rect:
         serializedVersion: 2
         x: 56
@@ -127,14 +127,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82847cfc8025c8120800000000000000
-      internalID: 2417397297790273576
+      spriteID: 8a459f0a3f8dd62a0800000000000000
+      internalID: -6742494526214417240
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: largaIdleAzul_1
+      name: amarilloLargaIdle_1
       rect:
         serializedVersion: 2
         x: 340
@@ -148,14 +148,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b3f20353f23f3c70800000000000000
-      internalID: 8952930604886979507
+      spriteID: 90fbbc18a9488ee90800000000000000
+      internalID: -6996196221982621943
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: largaIdleAzul_2
+      name: amarilloLargaIdle_2
       rect:
         serializedVersion: 2
         x: 624
@@ -169,14 +169,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 682744d77270fca20800000000000000
-      internalID: 3084692135958835846
+      spriteID: 480fccfb7a99823a0800000000000000
+      internalID: -6689928300702404476
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: largaIdleAzul_3
+      name: amarilloLargaIdle_3
       rect:
         serializedVersion: 2
         x: 908
@@ -190,14 +190,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bf6308c63eacc8d0800000000000000
-      internalID: -2824691315961008207
+      spriteID: 5728de841f88c8860800000000000000
+      internalID: 7533546846576018037
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: largaIdleAzul_4
+      name: amarilloLargaIdle_4
       rect:
         serializedVersion: 2
         x: 1192
@@ -211,14 +211,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89219288ba192af50800000000000000
-      internalID: 6891230545740108440
+      spriteID: f2fa196e046bebea0800000000000000
+      internalID: -5855042075672596689
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: largaIdleAzul_5
+      name: amarilloLargaIdle_5
       rect:
         serializedVersion: 2
         x: 1464
@@ -232,14 +232,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f44912406c38b6ec0800000000000000
-      internalID: -3572616992892283825
+      spriteID: 2abfbc76b982c81e0800000000000000
+      internalID: -2194334270509810782
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: largaIdleAzul_6
+      name: amarilloLargaIdle_6
       rect:
         serializedVersion: 2
         x: 1760
@@ -253,8 +253,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3912cd42586383a90800000000000000
-      internalID: -7334052047695896173
+      spriteID: a48445aa9c51075f0800000000000000
+      internalID: -761084381135353782
       vertices: []
       indices: 
       edges: []

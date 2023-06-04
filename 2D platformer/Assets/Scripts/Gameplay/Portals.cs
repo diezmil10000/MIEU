@@ -38,7 +38,7 @@ public class Portals : MonoBehaviour
         if (other.tag == "fadein") {
             fade_Image.CrossFadeAlpha(1, 0.2f, false);
         }
-        else if (Vector2.Distance(derecha.transform.position, other.transform.position) > distance && Vector2.Distance(derecha.transform.position, other.transform.position) < distance2)
+        else if ((other.tag == "Player" || other.tag == "Enemy") && Vector2.Distance(derecha.transform.position, other.transform.position) > distance && Vector2.Distance(derecha.transform.position, other.transform.position) < distance2)
         {
             other.transform.position = new Vector2(izquierda.position.x, izquierda.position.y);
 
@@ -48,7 +48,7 @@ public class Portals : MonoBehaviour
             }
             
         }
-        else if (Vector2.Distance(izquierda.transform.position, other.transform.position) > distance && Vector2.Distance(izquierda.transform.position, other.transform.position) < distance2)
+        else if ((other.tag == "Player" || other.tag == "Enemy") && Vector2.Distance(izquierda.transform.position, other.transform.position) > distance && Vector2.Distance(izquierda.transform.position, other.transform.position) < distance2)
         {
             other.transform.position = new Vector2(derecha.position.x, derecha.position.y);
 

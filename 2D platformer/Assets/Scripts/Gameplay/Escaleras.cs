@@ -7,7 +7,6 @@ public class Escaleras : MonoBehaviour
 {
     Transform destination;
     Transform jugadorPos;
-    float distance = 0.2f;
 
     bool escaleraActive;
 

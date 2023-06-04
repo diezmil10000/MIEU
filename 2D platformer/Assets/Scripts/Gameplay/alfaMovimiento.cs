@@ -9,7 +9,7 @@ public class alfaMovimiento : MonoBehaviour
     public bool enSuelo;
     public LayerMask capaSuelo;
 
-    private float vel = 5.0f;
+    public float vel;
     Rigidbody2D rb;
 
     Vector3 escalaPric;
