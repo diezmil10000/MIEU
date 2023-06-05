@@ -10325,6 +10325,7 @@ GameObject:
   - component: {fileID: 1076669794}
   - component: {fileID: 1076669793}
   - component: {fileID: 1076669797}
+  - component: {fileID: 1076669800}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -10517,6 +10518,23 @@ MonoBehaviour:
   - {fileID: 2005859557}
   - {fileID: 2092504953}
   - {fileID: 1671363679}
+--- !u!114 &1076669800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076669791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b83b2f66d75ab10479018d4723e972f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pisos: {fileID: 1076669799}
+  rojo: {fileID: 0}
+  amarillo: {fileID: 0}
+  azul: {fileID: 0}
+  verde: {fileID: 0}
 --- !u!1 &1076715466
 GameObject:
   m_ObjectHideFlags: 0
