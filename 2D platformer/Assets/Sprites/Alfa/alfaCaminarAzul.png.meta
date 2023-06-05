@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: f0ee7a9c6e32f394aaaaed28f869010c
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8404493274615226788
+    second: alfaCaminarAzul_0
+  - first:
+      213: 5311032778812024435
+    second: alfaCaminarAzul_1
+  - first:
+      213: -707926273435307012
+    second: alfaCaminarAzul_2
+  - first:
+      213: -6191839536280087896
+    second: alfaCaminarAzul_3
+  - first:
+      213: 9004681452964313683
+    second: alfaCaminarAzul_4
+  - first:
+      213: -856727661770706306
+    second: alfaCaminarAzul_5
+  - first:
+      213: 3266406034183138773
+    second: alfaCaminarAzul_6
+  - first:
+      213: -6968826182150728298
+    second: alfaCaminarAzul_7
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -32,7 +56,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,7 +65,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -90,7 +114,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: alfaCaminarAzul_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 5
+        width: 224
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e566945ed3d5b80800000000000000
+      internalID: -8404493274615226788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfaCaminarAzul_1
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 6
+        width: 192
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376eb8b5c2494b940800000000000000
+      internalID: 5311032778812024435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfaCaminarAzul_2
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 5
+        width: 97
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3f8b81ec0fc26f0800000000000000
+      internalID: -707926273435307012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfaCaminarAzul_3
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 6
+        width: 135
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a25ecd5fba221aa0800000000000000
+      internalID: -6191839536280087896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfaCaminarAzul_4
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 5
+        width: 218
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a7c77921e07fc70800000000000000
+      internalID: 9004681452964313683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfaCaminarAzul_5
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 6
+        width: 234
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72f7e21bba4c14f0800000000000000
+      internalID: -856727661770706306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfaCaminarAzul_6
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 5
+        width: 97
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ddadaf5bfa945d20800000000000000
+      internalID: 3266406034183138773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfaCaminarAzul_7
+      rect:
+        serializedVersion: 2
+        x: 2190
+        y: 6
+        width: 135
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695d67f7281c94f90800000000000000
+      internalID: -6968826182150728298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

@@ -1,7 +1,40 @@
 fileFormatVersion: 2
 guid: 3dff214081b34084ba30868a30ed15e2
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -1437441833695843523
+    second: alfaCaidaRojo_0
+  - first:
+      213: 1495403530494563821
+    second: alfaCaidaRojo_1
+  - first:
+      213: -571091935598819479
+    second: alfaCaidaRojo_2
+  - first:
+      213: -8928269568194654808
+    second: alfaCaidaRojo_3
+  - first:
+      213: -7040784540999885462
+    second: alfaCaidaRojo_4
+  - first:
+      213: -5123237657914787878
+    second: alfaCaidaRojo_5
+  - first:
+      213: -2358422603116505492
+    second: alfaCaidaRojo_6
+  - first:
+      213: 6751954024529488066
+    second: alfaCaidaRojo_7
+  - first:
+      213: 4100114389089510897
+    second: alfaCaidaRojo_8
+  - first:
+      213: 2054899604828974923
+    second: alfaCaidaRojo_9
+  - first:
+      213: 8477097386942723532
+    second: alfaCaidaRojo_10
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -32,7 +65,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,7 +74,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -90,7 +123,238 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: alfaCaidaRojo_0
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 696
+        width: 123
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3be545a44e2d0ce0800000000000000
+      internalID: -1437441833695843523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfaCaidaRojo_1
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 707
+        width: 182
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de55ef6869db0c410800000000000000
+      internalID: 1495403530494563821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfaCaidaRojo_2
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 617
+        width: 230
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967ca8c09e21318f0800000000000000
+      internalID: -571091935598819479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfaCaidaRojo_3
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 617
+        width: 192
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8adc3d8b12a681480800000000000000
+      internalID: -8928269568194654808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfaCaidaRojo_4
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 309
+        width: 217
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6dd3ad73cb1a4e90800000000000000
+      internalID: -7040784540999885462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfaCaidaRojo_5
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 308
+        width: 220
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad7b5148e7a96e8b0800000000000000
+      internalID: -5123237657914787878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfaCaidaRojo_6
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 309
+        width: 236
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c661dfe4323354fd0800000000000000
+      internalID: -2358422603116505492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfaCaidaRojo_7
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 309
+        width: 210
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c869d37962c3bd50800000000000000
+      internalID: 6751954024529488066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfaCaidaRojo_8
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1
+        width: 148
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5e524405886e830800000000000000
+      internalID: 4100114389089510897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfaCaidaRojo_9
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 4
+        width: 150
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4febe2ad48748c10800000000000000
+      internalID: 2054899604828974923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfaCaidaRojo_10
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 8
+        width: 108
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5fc1be823b4a570800000000000000
+      internalID: 8477097386942723532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

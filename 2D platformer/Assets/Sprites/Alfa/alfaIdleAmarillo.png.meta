@@ -1,7 +1,25 @@
 fileFormatVersion: 2
 guid: f78a61e16b9de9043ba255b9d9efd371
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -3723280197804287074
+    second: alfaIdleAmarillo_0
+  - first:
+      213: 7184625271843467545
+    second: alfaIdleAmarillo_1
+  - first:
+      213: 7374695676813720098
+    second: alfaIdleAmarillo_2
+  - first:
+      213: -2137975168702300039
+    second: alfaIdleAmarillo_3
+  - first:
+      213: -686754674618642445
+    second: alfaIdleAmarillo_4
+  - first:
+      213: 1493756386946066262
+    second: alfaIdleAmarillo_5
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -32,7 +50,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,7 +59,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -90,7 +108,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: alfaIdleAmarillo_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 69
+        width: 117
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b11aa0360445cc0800000000000000
+      internalID: -3723280197804287074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfaIdleAmarillo_1
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 69
+        width: 112
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91136847e9ae4b360800000000000000
+      internalID: 7184625271843467545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfaIdleAmarillo_2
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 68
+        width: 112
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a371f25ae285660800000000000000
+      internalID: 7374695676813720098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfaIdleAmarillo_3
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 68
+        width: 117
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970c4ea59e26452e0800000000000000
+      internalID: -2137975168702300039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfaIdleAmarillo_4
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 68
+        width: 117
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff448313482876f0800000000000000
+      internalID: -686754674618642445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfaIdleAmarillo_5
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 65
+        width: 117
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65724e80583eab410800000000000000
+      internalID: 1493756386946066262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

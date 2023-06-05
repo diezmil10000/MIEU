@@ -1,7 +1,40 @@
 fileFormatVersion: 2
 guid: 7a225ffc2f5278b4180a6d2207c9609f
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 1063386577296802247
+    second: alfaCaidaVerde_0
+  - first:
+      213: 8674330558271815467
+    second: alfaCaidaVerde_1
+  - first:
+      213: -3833985255353286354
+    second: alfaCaidaVerde_2
+  - first:
+      213: 3362271969847039956
+    second: alfaCaidaVerde_3
+  - first:
+      213: -5398592710465731232
+    second: alfaCaidaVerde_4
+  - first:
+      213: 7104888835903168169
+    second: alfaCaidaVerde_5
+  - first:
+      213: -6972079905997812240
+    second: alfaCaidaVerde_6
+  - first:
+      213: -1913586832818534868
+    second: alfaCaidaVerde_7
+  - first:
+      213: -865428357732429667
+    second: alfaCaidaVerde_8
+  - first:
+      213: 7578211197897727035
+    second: alfaCaidaVerde_9
+  - first:
+      213: 5985128922831159302
+    second: alfaCaidaVerde_10
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -32,7 +65,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,7 +74,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -90,7 +123,238 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: alfaCaidaVerde_0
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 696
+        width: 123
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c1c1be3578e1ce00800000000000000
+      internalID: 1063386577296802247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfaCaidaVerde_1
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 707
+        width: 182
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f7b162fa9616870800000000000000
+      internalID: 8674330558271815467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfaCaidaVerde_2
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 617
+        width: 230
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21059c39b2facac0800000000000000
+      internalID: -3833985255353286354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfaCaidaVerde_3
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 617
+        width: 192
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d75cf0ea8039ae20800000000000000
+      internalID: 3362271969847039956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfaCaidaVerde_4
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 309
+        width: 217
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0654da568885415b0800000000000000
+      internalID: -5398592710465731232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfaCaidaVerde_5
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 308
+        width: 220
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae95a0c0c2a99260800000000000000
+      internalID: 7104888835903168169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfaCaidaVerde_6
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 309
+        width: 236
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd8c51e3423e3f90800000000000000
+      internalID: -6972079905997812240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfaCaidaVerde_7
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 309
+        width: 210
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c268cf60ae29175e0800000000000000
+      internalID: -1913586832818534868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfaCaidaVerde_8
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1
+        width: 148
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d901fce6e716df3f0800000000000000
+      internalID: -865428357732429667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfaCaidaVerde_9
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 4
+        width: 150
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3cd493fee63b2960800000000000000
+      internalID: 7578211197897727035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfaCaidaVerde_10
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 8
+        width: 108
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60084447b037f0350800000000000000
+      internalID: 5985128922831159302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

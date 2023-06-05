@@ -10531,10 +10531,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pisos: {fileID: 1076669799}
-  rojo: {fileID: 0}
-  amarillo: {fileID: 0}
-  azul: {fileID: 0}
-  verde: {fileID: 0}
+  rojo: {fileID: 9100000, guid: 808ebbc9817b7ec4cbbca0706bac87ef, type: 2}
+  amarillo: {fileID: 9100000, guid: cf87bb8eee08ca3439f596c28935b6d4, type: 2}
+  azul: {fileID: 9100000, guid: 11b519c93becb8047aabed76d02f5985, type: 2}
+  verde: {fileID: 9100000, guid: bff5b0d25fec32e49a8a35fab12daf90, type: 2}
 --- !u!1 &1076715466
 GameObject:
   m_ObjectHideFlags: 0

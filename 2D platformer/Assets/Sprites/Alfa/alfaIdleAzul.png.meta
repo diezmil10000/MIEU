@@ -1,7 +1,25 @@
 fileFormatVersion: 2
 guid: e6b81c191858e3a4da60937791848887
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 8966197913600579574
+    second: alfaIdleAzul_0
+  - first:
+      213: 5591793262690148978
+    second: alfaIdleAzul_1
+  - first:
+      213: 3895635994850151033
+    second: alfaIdleAzul_2
+  - first:
+      213: -6845573455447930090
+    second: alfaIdleAzul_3
+  - first:
+      213: -5076483342891675646
+    second: alfaIdleAzul_4
+  - first:
+      213: 7531798486834272685
+    second: alfaIdleAzul_5
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -32,7 +50,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,7 +59,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -90,7 +108,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: alfaIdleAzul_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 69
+        width: 117
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7d20a5f755e6c70800000000000000
+      internalID: 8966197913600579574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfaIdleAzul_1
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 69
+        width: 112
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272a118885a0a9d40800000000000000
+      internalID: 5591793262690148978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfaIdleAzul_2
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 68
+        width: 112
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ac44f1c44101630800000000000000
+      internalID: 3895635994850151033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfaIdleAzul_3
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 68
+        width: 117
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61bce203633aff0a0800000000000000
+      internalID: -6845573455447930090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfaIdleAzul_4
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 68
+        width: 117
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20011c6cb45bc89b0800000000000000
+      internalID: -5076483342891675646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alfaIdleAzul_5
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 65
+        width: 117
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9d49f81d2568860800000000000000
+      internalID: 7531798486834272685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
