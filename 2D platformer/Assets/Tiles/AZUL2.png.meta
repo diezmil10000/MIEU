@@ -1,7 +1,64 @@
 fileFormatVersion: 2
 guid: 7d52f1d27576cf54986868ea912fd883
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -9161791817251361443
+    second: AZUL2_0
+  - first:
+      213: -8899187171149407560
+    second: AZUL2_1
+  - first:
+      213: 7746136078956369556
+    second: AZUL2_2
+  - first:
+      213: -9119788245952153768
+    second: AZUL2_3
+  - first:
+      213: 2499672051011014423
+    second: AZUL2_4
+  - first:
+      213: -6369410988884289170
+    second: AZUL2_5
+  - first:
+      213: -7771117545460545309
+    second: AZUL2_6
+  - first:
+      213: 1718529942009282930
+    second: AZUL2_7
+  - first:
+      213: -3370018048907188894
+    second: AZUL2_8
+  - first:
+      213: 1757955850675132094
+    second: AZUL2_9
+  - first:
+      213: -6874273427468778941
+    second: AZUL2_10
+  - first:
+      213: -2398528141279577375
+    second: AZUL2_11
+  - first:
+      213: 1384831684809338395
+    second: AZUL2_12
+  - first:
+      213: -7486418039898933126
+    second: AZUL2_13
+  - first:
+      213: -1101038397551768806
+    second: AZUL2_14
+  - first:
+      213: -252646731841785053
+    second: AZUL2_15
+  - first:
+      213: -1148089373202976443
+    second: AZUL2_16
+  - first:
+      213: 2904372357650242198
+    second: AZUL2_17
+  - first:
+      213: -7499851683854121437
+    second: AZUL2_18
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -41,7 +98,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -90,7 +147,406 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: AZUL2_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 44
+        width: 31
+        height: 838
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5de6aa22e6cad080800000000000000
+      internalID: -9161791817251361443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AZUL2_1
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 847
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba1de1fa6cbf7480800000000000000
+      internalID: -8899187171149407560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AZUL2_2
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 770
+        width: 67
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496180819bdcf7b60800000000000000
+      internalID: 7746136078956369556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AZUL2_3
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 754
+        width: 86
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8573d35b8e0007180800000000000000
+      internalID: -9119788245952153768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AZUL2_4
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 298
+        width: 176
+        height: 592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71fcb7f8c7e90b220800000000000000
+      internalID: 2499672051011014423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AZUL2_5
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 56
+        width: 23
+        height: 829
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e691513c37e4b97a0800000000000000
+      internalID: -6369410988884289170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AZUL2_6
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 768
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8c40bf3c1772490800000000000000
+      internalID: -7771117545460545309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AZUL2_7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 619
+        width: 140
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 271065980e179d710800000000000000
+      internalID: 1718529942009282930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AZUL2_8
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 643
+        width: 34
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2656b3c807a4b31d0800000000000000
+      internalID: -3370018048907188894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AZUL2_9
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 673
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb69f4a3883856810800000000000000
+      internalID: 1757955850675132094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AZUL2_10
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 629
+        width: 58
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34201da3dbca990a0800000000000000
+      internalID: -6874273427468778941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AZUL2_11
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 613
+        width: 121
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eab04b0d57b6bed0800000000000000
+      internalID: -2398528141279577375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AZUL2_12
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 507
+        width: 117
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e24c68419e73310800000000000000
+      internalID: 1384831684809338395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AZUL2_13
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 465
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a787fbb1576ea1890800000000000000
+      internalID: -7486418039898933126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AZUL2_14
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 459
+        width: 151
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b8cd5396358b0f0800000000000000
+      internalID: -1101038397551768806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AZUL2_15
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 405
+        width: 62
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32338eec22b6e7cf0800000000000000
+      internalID: -252646731841785053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AZUL2_16
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 409
+        width: 54
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541f5d34cca2110f0800000000000000
+      internalID: -1148089373202976443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AZUL2_17
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 310
+        width: 68
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ad43175476e4820800000000000000
+      internalID: 2904372357650242198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AZUL2_18
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 205
+        width: 177
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32682c321ac2be790800000000000000
+      internalID: -7499851683854121437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

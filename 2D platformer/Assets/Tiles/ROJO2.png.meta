@@ -1,7 +1,64 @@
 fileFormatVersion: 2
 guid: a7129f35eb2982940a327b98f9f0be51
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -6066143570476241818
+    second: ROJO2_0
+  - first:
+      213: -7997922377751433695
+    second: ROJO2_1
+  - first:
+      213: -5026056485870525201
+    second: ROJO2_2
+  - first:
+      213: 3519444214340947862
+    second: ROJO2_3
+  - first:
+      213: -6958759978844513198
+    second: ROJO2_4
+  - first:
+      213: -8942545341286569832
+    second: ROJO2_5
+  - first:
+      213: -3138993393649949535
+    second: ROJO2_6
+  - first:
+      213: -401198426444870840
+    second: ROJO2_7
+  - first:
+      213: 3260212922305795840
+    second: ROJO2_8
+  - first:
+      213: -5929262590753356832
+    second: ROJO2_9
+  - first:
+      213: -7921949150235788105
+    second: ROJO2_10
+  - first:
+      213: -9107098045051287743
+    second: ROJO2_11
+  - first:
+      213: 8993132697067822866
+    second: ROJO2_12
+  - first:
+      213: 3416361286809128338
+    second: ROJO2_13
+  - first:
+      213: 4773857334741383600
+    second: ROJO2_14
+  - first:
+      213: -2768769957455953182
+    second: ROJO2_15
+  - first:
+      213: 6319826191505983200
+    second: ROJO2_16
+  - first:
+      213: 4586596056332686792
+    second: ROJO2_17
+  - first:
+      213: -5728006738813501300
+    second: ROJO2_18
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -41,7 +98,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -90,7 +147,406 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: ROJO2_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 44
+        width: 31
+        height: 838
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c6e3dff8ab0dba0800000000000000
+      internalID: -6066143570476241818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJO2_1
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 847
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e6af4e8fba10190800000000000000
+      internalID: -7997922377751433695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJO2_2
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 770
+        width: 67
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4a3aa514cdf3ab0800000000000000
+      internalID: -5026056485870525201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJO2_3
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 754
+        width: 86
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f889abdd397d030800000000000000
+      internalID: 3519444214340947862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJO2_4
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 298
+        width: 176
+        height: 592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c94c71ba48d6f90800000000000000
+      internalID: -6958759978844513198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJO2_5
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 56
+        width: 23
+        height: 829
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8982ac84462b5e380800000000000000
+      internalID: -8942545341286569832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJO2_6
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 768
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4623bb32e0074d0800000000000000
+      internalID: -3138993393649949535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJO2_7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 619
+        width: 140
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84bce432828ae6af0800000000000000
+      internalID: -401198426444870840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJO2_8
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 643
+        width: 34
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 007dc26216a9e3d20800000000000000
+      internalID: 3260212922305795840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJO2_9
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 673
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e3422a961707bda0800000000000000
+      internalID: -5929262590753356832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJO2_10
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 629
+        width: 58
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bcfc7b58359f0290800000000000000
+      internalID: -7921949150235788105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJO2_11
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 613
+        width: 121
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147401a54961d9180800000000000000
+      internalID: -9107098045051287743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJO2_12
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 507
+        width: 117
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f9da25a860ecc70800000000000000
+      internalID: 8993132697067822866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJO2_13
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 465
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d87ac5d7a596f20800000000000000
+      internalID: 3416361286809128338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJO2_14
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 459
+        width: 151
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b937a5f3f5204240800000000000000
+      internalID: 4773857334741383600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJO2_15
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 405
+        width: 62
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2801da46a5399d0800000000000000
+      internalID: -2768769957455953182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJO2_16
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 409
+        width: 54
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e68ce2ff6884b750800000000000000
+      internalID: 6319826191505983200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJO2_17
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 310
+        width: 68
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5dae9ffccd6af30800000000000000
+      internalID: 4586596056332686792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJO2_18
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 205
+        width: 177
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c804af528380280b0800000000000000
+      internalID: -5728006738813501300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
