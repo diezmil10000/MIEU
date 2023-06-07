@@ -9,6 +9,7 @@ public class Dead : MonoBehaviour
     [SerializeField] GameObject jumpscarePanel;
     [SerializeField] GameObject gameOver;
     [SerializeField] GameObject player;
+    [SerializeField] GameObject fadePanel;
     [SerializeField] AudioClip gameOverClip;
     [SerializeField] AudioClip jumpscareClip;
 
@@ -83,6 +84,7 @@ public class Dead : MonoBehaviour
 
     public void youLost()
     {
+        fadePanel.SetActive(false);
         jumpscarePanel.SetActive(false);
         gameOver.SetActive(true);
         Time.timeScale = 0f;

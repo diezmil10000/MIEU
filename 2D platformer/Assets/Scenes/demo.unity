@@ -23977,6 +23977,7 @@ MonoBehaviour:
   jumpscarePanel: {fileID: 169541202}
   gameOver: {fileID: 1191756268}
   player: {fileID: 1076669791}
+  fadePanel: {fileID: 555320476}
   gameOverClip: {fileID: 8300000, guid: e18959d46b63f3c4c8cc020a433cf848, type: 3}
   jumpscareClip: {fileID: 8300000, guid: 6c05149e5a2fba64ba172e25a61074b7, type: 3}
   trippy: {fileID: 964219153}
