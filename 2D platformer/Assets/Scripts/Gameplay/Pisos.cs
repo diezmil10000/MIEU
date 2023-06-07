@@ -32,9 +32,10 @@ public class Pisos : MonoBehaviour
             pisoActual = 2;
         } else if (altura < -35f && altura > -55f) {
             pisoActual = 1;
-        } else if (altura < -55f) {
+        } else if (altura < -55f && altura > -80f) {
             pisoActual = 0;
-
+        } else if (altura < -80f){
+            pisoActual = -1;
         }
     }
 

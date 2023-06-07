@@ -34,7 +34,7 @@ public class changeController : MonoBehaviour
         {
             animator.runtimeAnimatorController = rojo;
         }
-        else if (pisos.pisoActual == 3)
+        else if (pisos.pisoActual == 3 || pisos.pisoActual == -1)
         {
             animator.runtimeAnimatorController = azul;
         }

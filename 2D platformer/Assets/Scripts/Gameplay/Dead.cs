@@ -23,17 +23,14 @@ public class Dead : MonoBehaviour
     {
         if (other.collider.gameObject.layer == 11)
         {
-            Debug.Log("larga");
             onContactLarga();
         }
         else if (other.collider.gameObject.layer == 12)
         {
-            Debug.Log("trippy");
             onContactTrippy();
         }
         else if (other.collider.gameObject.layer == 13)
         {
-            Debug.Log("gusan");
             onContactGusan();
         }
     }
