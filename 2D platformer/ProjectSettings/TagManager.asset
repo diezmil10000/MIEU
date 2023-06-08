@@ -13,6 +13,7 @@ TagManager:
   - agujero
   - escalera
   - fadein
+  - agujero2
   layers:
   - Default
   - TransparentFX
