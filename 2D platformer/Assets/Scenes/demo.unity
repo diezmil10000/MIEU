@@ -12445,6 +12445,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuPanel: {fileID: 1846414043}
+  fadePanel: {fileID: 555320476}
 --- !u!1 &562656685
 GameObject:
   m_ObjectHideFlags: 0
