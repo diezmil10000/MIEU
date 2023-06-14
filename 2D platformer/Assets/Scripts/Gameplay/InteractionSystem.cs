@@ -14,7 +14,8 @@ public class InteractionSystem : MonoBehaviour
     public LayerMask monsterLayer;
 
     //Sonido de taquilla
-    [SerializeField] private AudioClip _clip;
+    [SerializeField] private AudioClip taquillas_Abre;
+    [SerializeField] private AudioClip taquillas_Cierra;
 
     //Cogemos al jugador
     [SerializeField] private GameObject player;
@@ -60,7 +61,7 @@ public class InteractionSystem : MonoBehaviour
             {
                 lockerScreen.SetActive(true);
                 player.SetActive(false);
-                //SoundManager.Instance.PlaySound(_clip);
+                SoundManager.Instance.PlaySound(taquillas_Abre);
                 dentroarmario = true;
             }
 
@@ -68,7 +69,7 @@ public class InteractionSystem : MonoBehaviour
         {
             lockerScreen.SetActive(false);
             player.SetActive(true);
-            //SoundManager.Instance.PlaySound(_clip);
+            SoundManager.Instance.PlaySound(taquillas_Cierra);
             dentroarmario = false;
         }
 

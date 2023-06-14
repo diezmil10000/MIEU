@@ -23,6 +23,8 @@ public class alfaMovimiento : MonoBehaviour
     private float tiempoIdle;
     private float tiempoAsusta;
 
+    [SerializeField] private AudioClip pasos;
+
     private void Start()
     {
 
@@ -63,6 +65,7 @@ public class alfaMovimiento : MonoBehaviour
         if(h != 0) //si el personaje se est� moviendo, es decir, si h es 1 o -1
         {
             anim.SetBool("Andar", true);
+            // Va horrible for some reason, audio de pasos --> SoundManager.Instance.PlaySound(pasos);
         }
         else //si el personaje est� quieto, es decir, h = 0
         {

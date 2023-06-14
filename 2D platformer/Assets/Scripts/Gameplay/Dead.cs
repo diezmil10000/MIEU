@@ -13,9 +13,12 @@ public class Dead : MonoBehaviour
     [SerializeField] AudioClip gameOverClip;
     [SerializeField] AudioClip jumpscareClip;
 
-    [SerializeField] private Image trippy;
-    [SerializeField] private Image larga;
-    [SerializeField] private Image gusan;
+    [SerializeField] private GameObject jumpscareLarga;
+    [SerializeField] private GameObject jumpscareGusan;
+    [SerializeField] private GameObject jumpscareTrippy;
+
+
+    //Videos 
 
     [SerializeField] private float jumpscareTime = 2.0f;
 
@@ -39,11 +42,11 @@ public class Dead : MonoBehaviour
     private void onContactGusan()
     {
         player.SetActive(false);
-        SoundManager.Instance.PlaySound(jumpscareClip);
         jumpscarePanel.SetActive(true);
-        trippy.enabled = false;
-        larga.enabled = false;
-        gusan.enabled = true;
+
+        jumpscareGusan.SetActive(true);
+        jumpscareTrippy.SetActive(false);
+        jumpscareLarga.SetActive(false);
 
 
 
@@ -55,11 +58,11 @@ public class Dead : MonoBehaviour
     private void onContactLarga()
     {
         player.SetActive(false);
-        SoundManager.Instance.PlaySound(jumpscareClip);
         jumpscarePanel.SetActive(true);
-        trippy.enabled = false;
-        larga.enabled = true;
-        gusan.enabled = false;
+
+        jumpscareGusan.SetActive(false);
+        jumpscareTrippy.SetActive(false);
+        jumpscareLarga.SetActive(true);
 
 
         //A los dos segundos llamamos a la función youLost();
@@ -70,11 +73,12 @@ public class Dead : MonoBehaviour
     private void onContactTrippy()
     {
         player.SetActive(false);
-        SoundManager.Instance.PlaySound(jumpscareClip);
         jumpscarePanel.SetActive(true);
-        trippy.enabled = true;
-        larga.enabled = false;
-        gusan.enabled = false;
+
+        jumpscareGusan.SetActive(false);
+        jumpscareTrippy.SetActive(true);
+        jumpscareLarga.SetActive(false);
+
 
 
         //A los dos segundos llamamos a la función youLost();
@@ -85,7 +89,11 @@ public class Dead : MonoBehaviour
     public void youLost()
     {
         fadePanel.SetActive(false);
-        jumpscarePanel.SetActive(false);
+
+        jumpscareGusan.SetActive(false);
+        jumpscareTrippy.SetActive(false);
+        jumpscareLarga.SetActive(false);
+
         gameOver.SetActive(true);
         Time.timeScale = 0f;
         SoundManager.Instance.PlaySound(gameOverClip);
